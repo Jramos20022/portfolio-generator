@@ -6,7 +6,7 @@ const profileDataArgs = process.argv.slice(2);
 
 const [name, github] = profileDataArgs;
 
-
+/* new commit */
 
 
 fs.writeFile('index.html', generatePage(name, github), err => {
